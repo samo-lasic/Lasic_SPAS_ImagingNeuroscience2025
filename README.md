@@ -3,15 +3,15 @@
 _Code for generating tensor-valued diffusion encoding waveforms, performing simulations, and processing experimental MRI data._
 ## Overview
 
-This repository contains code supporting the development and evaluation of tensor-valued diffusion MRI encoding strategies to disentangle microscopic anisotropy (µA) from confounding time-dependent diffusion (TDD) effects, published in
-[Lasič et al. Spectral Principal Axis System (SPAS) and tuning of tensor-valued encoding for microscopic anisotropy and time-dependent diffusion in the rat brain, Imaging Neuroscience.](https://doi.org/)
+This repository contains code supporting the development and evaluation of tensor-valued diffusion MRI encoding strategies to disentangle microscopic anisotropy (µA) from confounding time-dependent diffusion (TDD) effects, published in **Lasič et al. (2025), "Spectral Principal Axis System (SPAS) and tuning of tensor-valued encoding for microscopic anisotropy and time-dependent diffusion in the rat brain," *Imaging Neuroscience*, 3.** [https://doi.org/10.1162/IMAG.a.35](https://doi.org/10.1162/IMAG.a.35)
 
 It implements methods for generating spherical tensor encoding (STE) gradient waveforms and analyzing their spectral properties to define the Spectral Principal Axis System (SPAS). From the same STE, it derives two complementary encoding protocols. The first protocol uses tuned linear tensor encoding (tuned LTE) to minimize TDD bias for unbiased µA estimation. The second protocol uses SPAS-LTE projections, which provide maximal spread of TDD sensitivity inherent in the STE. By acquiring signals along the SPAS-LTE projections and applying geometric averaging of the acquired signals (geoSPAS), this protocol enables both µA estimation and additional contrast sensitive to TDD. The repository provides tools for preparing these encoding waveforms for MRI acquisition and simulations. 
 ### Citation
 
 If you use this code or methods in your work, please cite:
 
-Lasič, S., Just N., Nilsson, M., Szczepankiewicz, F., Budde, M., & Lundell, H. (2025) Spectral Principal Axis System (SPAS) and tuning of tensor-valued encoding for microscopic anisotropy and time-dependent diffusion in the rat brain. *Imaging Neuroscience*, ... . https://doi.org/
+Lasič, S., Just, N., Nilsson, M., Szczepankiewicz, F., Budde, M., & Lundell, H. (2025). Spectral Principal Axis System (SPAS) and tuning of tensor-valued encoding for microscopic anisotropy and time-dependent diffusion in the rat brain. *Imaging Neuroscience*, 3. [https://doi.org/10.1162/IMAG.a.35](https://doi.org/10.1162/IMAG.a.35)
+
 
 ### Requirements
 
