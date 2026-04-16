@@ -12,7 +12,7 @@ If you use this code or methods in your work, please cite:
 
 Lasič, S., Just, N., Nilsson, M., Szczepankiewicz, F., Budde, M., & Lundell, H. (2025). Spectral Principal Axis System (SPAS) and tuning of tensor-valued encoding for microscopic anisotropy and time-dependent diffusion in the rat brain. *Imaging Neuroscience*, 3. [https://doi.org/10.1162/IMAG.a.35](https://doi.org/10.1162/IMAG.a.35)
 
-## Funding
+### Funding
 This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme, grant agreement No 804746.
 
 
